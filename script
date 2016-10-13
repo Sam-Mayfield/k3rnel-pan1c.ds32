@@ -1,0 +1,18 @@
+#! /bin/bash
+
+echo "Ubuntu 14.04 Script, by Sebastian McMillan."
+pause
+echo "Removing john, john-data, netcat and netcat-traditional..."
+sudo apt-get purge john john-data netcat netcat-traditional -y
+echo "Job complete."
+echo "Fixing Repositories..."
+sudo cp fuck fuck
+echo "Done."
+echo "Fixing update settings..."
+*PLACEHOLDER*
+echo "Updating software repos..."
+sudo apt-get update
+echo "Running software upgrades..."
+sudo apt-get dist-upgrade
+echo "Repeating to make sure it upgraded everything..."
+sudo apt-get upgrade
